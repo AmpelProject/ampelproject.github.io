@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## AMPEL in a nutshell
 
-You can use the [editor on GitHub](https://github.com/AmpelProject/ampelproject.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+AMPEL is a _modular_ and _scalable_ platform with explicit _provenance_ tracking, suited for systematically processing large&mdash;possibly complex and heterogeneous&mdash;datasets either in real time or offline. This includes selecting, analyzing, updating, combining, enriching and reacting to data.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The framework requires analysis and reaction logic to be broken down in adequate independent units.
+AMPEL was originaly developed to solve challenges in the context of experimental astrophysics, but is general enough to be applicable in various fields.
 
-### Markdown
+### Components
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Ampel-interface](https://github.com/AmpelProject/Ampel-interface): base classes for all AMPEL components
+- [Ampel-core](https://github.com/AmpelProject/Ampel-core): framework implementation
+- [Ampel-photometry](https://github.com/AmpelProject/Ampel-photometry): support for photometric data
+- [Ampel-alerts](https://github.com/AmpelProject/Ampel-alerts): support for streaming alert data
 
-```markdown
-Syntax highlighted code block
+### Contact
 
-# Header 1
-## Header 2
-### Header 3
+ampel-info@desy.de
 
-- Bulleted
-- List
+### Citation
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AmpelProject/ampelproject.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+J. Nordin, V. Brinnel, J. van Santen, M. Bulla, U. Feindt et al. _Transient processing and analysis using AMPEL: alert management, photometry, and evaluation of light curves_. Astronomy and Astrophysics 631 (2019) A147. [doi:10.1051/0004-6361/201935634](https://doi.org/10.1051/0004-6361/201935634)
