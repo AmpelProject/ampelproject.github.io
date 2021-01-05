@@ -1,3 +1,10 @@
+---
+layout: default
+title: Design
+has_children: true
+nav_order: 2
+---
+
 Architecture intro here
 
 # Tiers
