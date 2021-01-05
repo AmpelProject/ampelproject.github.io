@@ -37,7 +37,7 @@ Internally, _channels_ are just tags in database documents and ampel configurati
 From a user perspective, a channel can be seen as a collection of private processes.
 
 <p align="center">
-<img src="channels.png" width=50%/>
+<img src="channels.jpg" width=50%/>
 <br/>
 Processes associated with a given channel
 </p>
