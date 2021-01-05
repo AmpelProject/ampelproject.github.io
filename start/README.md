@@ -1,3 +1,11 @@
+---
+layout: default
+title: Start
+nav_order: 1
+has_children: true
+---
+
+
 Getting started...
 
 # Installing Ampel
