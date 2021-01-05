@@ -1,6 +1,4 @@
-# Installing Ampel
-
-See `<https://ampelproject.github.io/Ampel-core/installing.html>`_.
+Intro here...
 
 # Database
 
