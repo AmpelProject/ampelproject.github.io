@@ -1,4 +1,16 @@
 remote_theme: pmarsceill/just-the-docs
 title: AMPEL
-baseurl: "/"
 url: "https://ampelproject.github.io/"
+
+collections:
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  core:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    core:
+      name: Core
+      nav_exclude: false
+      search_exclude: false
