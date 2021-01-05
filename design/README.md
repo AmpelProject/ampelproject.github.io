@@ -10,9 +10,7 @@ The execution layer architecture along with the database structure allow for sim
 # Units
 Each tier is modular and executes so-called "units".
 
-<p align="center">
 <img src="units.png" width=50%/>
-</p>
 
 Ampel _base units_ have standardized inputs and ouputs, enforced through abstract classes which units inherit.
 
@@ -36,11 +34,9 @@ belonging to the same channel.
 Internally, _channels_ are just tags in database documents and ampel configuration files.  
 From a user perspective, a channel can be seen as a collection of private processes.
 
-<p align="center">
 <img src="channels.jpg" width=50%/>
 <br/>
 Processes associated with a given channel
-</p>
 
 Note that within AMPEL, different _channels_ requiring the same computation
 will not result in the required computation being performed twice.
