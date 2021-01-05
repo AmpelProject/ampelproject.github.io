@@ -4,7 +4,7 @@ Architecture intro here
 AMPEL is made of four execution layers (tiers) that replace a traditional pipeline architecture.
 <img align="left" src="tiers.png"/>
 
-The tiers are independently scheduled and the information exchange between tiers occurs via a dedicated database.
+The tiers are independently scheduled and information exchanges between tiers occur via a dedicated database.
 The execution layer architecture along with the database structure allow for simple parallelization.
 
 # Units
