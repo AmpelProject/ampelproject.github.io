@@ -8,7 +8,7 @@ collections:
 
 just_the_docs:
   collections:
-    start:
-      name: Docs
+    docs:
+      name: docs
       nav_exclude: false
       search_exclude: false
