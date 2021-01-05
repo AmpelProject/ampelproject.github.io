@@ -1,6 +1,6 @@
 <img align="left" src="/logo.png" width="150" height="150" style="margin-right: 10px"/>
 
-AMPEL is a _modular_ and _scalable_ platform with explicit _provenance_ tracking, suited for systematically processing large&mdash;possibly complex and heterogeneous&mdash;datasets either in real time or offline. This includes selecting, analyzing, updating, combining, enriching and reacting to data.
+AMPEL is a _modular_ and _scalable_ platform with explicit _provenance_ tracking, suited for systematically processing large &mdash; possibly complex and heterogeneous &mdash; datasets either in real time or offline. This includes selecting, analyzing, updating, combining, enriching and reacting to data.
 
 <br>
 <br>
