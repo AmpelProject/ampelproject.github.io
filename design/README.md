@@ -10,7 +10,7 @@ The execution layer architecture along with the database structure allow for sim
 # Units
 Each tier is modular and executes so-called "units".
 
-<img src="units.png" width=50%/>
+<img src="units.png" width="50%"/>
 
 Ampel _base units_ have standardized inputs and ouputs, enforced through abstract classes which units inherit.
 
