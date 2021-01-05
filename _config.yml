@@ -1,2 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
-title: <img scr="logo.png"/> Ampel
+title: Ampel
+baseurl: "/"
+url: "https://ampelproject.github.io/"
