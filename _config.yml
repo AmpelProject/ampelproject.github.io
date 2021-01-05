@@ -2,18 +2,17 @@ remote_theme: pmarsceill/just-the-docs
 title: AMPEL
 
 collections:
-  # Define a collection named "docs", its documents reside in the "_docs" directory
   start:
-    permalink: "/:collection/:path:output_ext"
+    permalink: "/:collection/:path"
     output: true
   design:
-    permalink: "/:collection/:path:output_ext"
+    permalink: "/:collection/:path"
     output: true
   interface:
-    permalink: "/:collection/:path:output_ext"
+    permalink: "/:collection/:path"
     output: true
   core:
-    permalink: "/:collection/:path:output_ext"
+    permalink: "/:collection/:path"
     output: true
 
 just_the_docs:
