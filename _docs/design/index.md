@@ -3,12 +3,14 @@ layout: default
 title: Design
 has_children: true
 nav_order: 2
+has_toc: false
 ---
+
+Architecture intro here
 
 1. TOC
 {:toc}
 
-Architecture intro here
 
 # Tiers
 AMPEL is made of four execution layers (tiers) that replace a traditional pipeline architecture.
