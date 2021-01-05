@@ -4,12 +4,33 @@ url: "https://ampelproject.github.io/"
 
 collections:
   # Define a collection named "docs", its documents reside in the "_docs" directory
+  start:
+    permalink: "/:collection/:path/"
+    output: true
+  design:
+    permalink: "/:collection/:path/"
+    output: true
+  interface:
+    permalink: "/:collection/:path/"
+    output: true
   core:
     permalink: "/:collection/:path/"
     output: true
 
 just_the_docs:
   collections:
+    start:
+      name: Start
+      nav_exclude: false
+      search_exclude: false
+    design:
+      name: Design
+      nav_exclude: false
+      search_exclude: false
+    interface:
+      name: Interface
+      nav_exclude: false
+      search_exclude: false
     core:
       name: Core
       nav_exclude: false
