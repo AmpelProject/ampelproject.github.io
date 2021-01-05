@@ -11,7 +11,7 @@ The execution layer architecture along with the database structure allow for sim
 Each tier is modular and executes so-called "units".
 
 <p align="center">
-<img src="https://desycloud.desy.de/index.php/s/P76f9qSWJse8oT7/preview" width=50%/>
+<img src="units.png" width=50%/>
 </p>
 
 Ampel _base units_ have standardized inputs and ouputs, enforced through abstract classes which units inherit.
@@ -37,7 +37,7 @@ Internally, _channels_ are just tags in database documents and ampel configurati
 From a user perspective, a channel can be seen as a collection of private processes.
 
 <p align="center">
-<img src="https://desycloud.desy.de/index.php/s/YMiGJ2zckgEr54n/preview" width=50%/>
+<img src="channels.png" width=50%/>
 <br/>
 Processes associated with a given channel
 </p>
