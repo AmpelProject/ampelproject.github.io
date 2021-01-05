@@ -4,16 +4,16 @@ title: AMPEL
 collections:
   # Define a collection named "docs", its documents reside in the "_docs" directory
   start:
-    permalink: "/start/"
+    permalink: "/start"
     output: true
   design:
-    permalink: "/design/"
+    permalink: "/design"
     output: true
   interface:
-    permalink: "/interface/"
+    permalink: "/interface"
     output: true
   core:
-    permalink: "/core/"
+    permalink: "/core"
     output: true
 
 just_the_docs:
