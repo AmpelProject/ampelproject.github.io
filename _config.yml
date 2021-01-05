@@ -2,13 +2,20 @@ remote_theme: pmarsceill/just-the-docs
 title: AMPEL
 
 collections:
-  docs:
+  general:
+    permalink: "/:collection/:path"
+    output: true
+  astronomy:
     permalink: "/:collection/:path"
     output: true
 
 just_the_docs:
   collections:
-    docs:
-      name: docs
+    general:
+      name: general
+      nav_exclude: false
+      search_exclude: false
+    astronomy:
+      name: astronomy
       nav_exclude: false
       search_exclude: false
