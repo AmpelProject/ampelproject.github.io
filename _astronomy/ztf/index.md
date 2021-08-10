@@ -15,7 +15,7 @@ The [catalog matching service](https://github.com/AmpelProject/catalog-server) p
 
 ## ZTF alert archive
 
-The DESY alert archive contains ZTF alert packets issued since June 2018. Alerts from the last ~3 months include cutout images; older alerts contain only the candidate photometry and history. The API is detailed in the [online documentation](https://ampel.zeuthen.desy.de/api/ztf/archive/v2/docs).
+The DESY alert archive contains ZTF alert packets issued since June 2018. Alerts from the last ~3 months include cutout images; older alerts contain only the candidate photometry and history. The API is detailed in the [online documentation](https://ampel.zeuthen.desy.de/api/ztf/archive/v2/docs). Some endpoints require an archive API token. If you are a member of the [AmpelProject organization](https://github.com/AmpelProject), you can create an archive API token using the [Ampel dashboard](https://ampel.zeuthen.desy.de/live/dashboard/tokens). 
 
 ## Live database query
 
