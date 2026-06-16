@@ -11,24 +11,24 @@ The live Ampel instance that processes the ZTF alert stream at DESY-Zeuthen reli
 
 ## Catalog matching
 
-The [catalog matching service](https://github.com/AmpelProject/catalog-server) provides cone searches against [extcats](https://github.com/AmpelProject/extcats) and [catsHTM](https://github.com/maayane/catsHTM) catalogs via a REST API. You can try it out via the [online documentation](https://ampel.zeuthen.desy.de/api/catalogmatch/docs).
+The [catalog matching service](https://github.com/AmpelProject/catalog-server) provides cone searches against [extcats](https://github.com/AmpelProject/extcats) and [catsHTM](https://github.com/maayane/catsHTM) catalogs via a REST API. You can try it out via the [online documentation](https://ampel-ztf.zeuthen.desy.de/api/catalogmatch/docs).
 
 ## ZTF alert archive
 
-The DESY alert archive contains ZTF alert packets issued since June 2018. Alerts from the last ~3 months include cutout images; older alerts contain only the candidate photometry and history. The API is detailed in the [online documentation](https://ampel.zeuthen.desy.de/api/ztf/archive/v2/docs). Some endpoints require an archive API token. If you are a member of the [AmpelProject organization](https://github.com/AmpelProject), you can create an archive API token using the [Ampel dashboard](https://ampel.zeuthen.desy.de/live/dashboard/tokens). 
+The DESY alert archive contains ZTF alert packets issued since June 2018. Alerts from the last ~3 months include cutout images; older alerts contain only the candidate photometry and history. The API is detailed in the [online documentation](https://ampel-ztf.zeuthen.desy.de/api/ztf/archive/v3/docs). Some endpoints require an archive API token. If you are a member of the [AmpelProject organization](https://github.com/AmpelProject), you can create an archive API token using the [Ampel dashboard](https://ampel-ztf.zeuthen.desy.de/live/dashboard/tokens). 
 
 ## Live database query
 
-The [live query API](https://ampel.zeuthen.desy.de/api/live/docs) allows you to query stocks (astronomical transients) that are currently being tracked by the Ampel "live" instance at DESY. This API is experimental and subject to change at any time.
+The [live query API](https://ampel-ztf.zeuthen.desy.de/api/live/docs) allows you to query stocks (astronomical transients) that are currently being tracked by the Ampel "live" instance at DESY. This API is experimental and subject to change at any time.
 
-To use this API, you must join the [AmpelProject organization](https://github.com/AmpelProject), and visit the [Ampel dashboard](https://ampel.zeuthen.desy.de/live/dashboard/tokens) in a web browser to retrieve an access token. This may ask you to authorize the `ampel-auth-test` app to read your organization memberships. Once authorized, you should see content like this: 
+To use this API, you must join the [AmpelProject organization](https://github.com/AmpelProject), and visit the [Ampel dashboard](https://ampel-ztf.zeuthen.desy.de/live/dashboard/tokens) in a web browser to retrieve an access token. This may ask you to authorize the `ampel-auth-test` app to read your organization memberships. Once authorized, you should see content like this: 
 
 <img width="886" alt="dashboard_token" src="https://user-images.githubusercontent.com/938705/117054597-8cec8d80-ad1a-11eb-957e-82eccb47496c.png">
 
 You can use the generated API token like so:
 
 ```
-> curl -H "Authorization: bearer $TOKEN" -sL https://ampel.zeuthen.desy.de/api/live/stock/ztf/ZTF21aaqhhfu | jq
+> curl -H "Authorization: bearer $TOKEN" -sL https://ampel-ztf.zeuthen.desy.de/api/live/stock/ztf/ZTF21aaqhhfu | jq
 {
   "_id": 119032484,
   "channel": [
